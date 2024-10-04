@@ -701,52 +701,52 @@ section .title::after{
     text-decoration: underline;
     background: none;
 }
-.skills .skills-content .right .bars {
+.skills .skills-content .right .bars{
     margin-bottom: 15px;
 }
-.skills .skills-content .right .info {
+.skills .skills-content .right .info{
     display: flex;
     margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
-    color: white; /* Set text color to white for better visibility */
 }
-.skills .skills-content .right span {
+.skills .skills-content .right span{
     font-weight: 500;
     font-size: 18px;
-    color: rgb(14, 45, 225) !important; /* Set skill name text color to white */
 }
-.skills .skills-content .right .line {
+.skills .skills-content .right .line{
     height: 5px;
     width: 100%;
-    background: rgb(31, 3, 245); /* Background color for the line */
+    background: lightgrey;
     position: relative;
-    border-radius: 5px; /* Add border radius for rounded edges */
 }
-.skills .skills-content .right .line::before {
+.skills .skills-content .right .line::before{
     content: "";
     position: absolute;
     height: 100%;
     left: 0;
     top: 0;
-    background: rgb(8, 132, 249); /* Change this to your desired skill bar color */
-    border-radius: 5px; /* Add border radius for rounded edges */
+    background: rgb(0, 127, 246);
 }
-.skills-content .right .react::before {
-    width: 90%; /* Adjust width for React skill */
+.skills-content .right .html::before{
+    width: 90%;
 }
-.skills-content .right .nodejs::before {
-    width: 80%; /* Adjust width for Node.js skill */
+.skills-content .right .css::before{
+    width: 70%;
 }
-.skills-content .right .mongodb::before {
-    width: 75%; /* Adjust width for MongoDB skill */
+.skills-content .right .js::before{
+    width: 50%;
 }
-.skills-content .right .expressjs::before {
-    width: 85%; /* Adjust width for Express.js skill */
+.skills-content .right .php::before{
+    width: 50%;
 }
-.skills-content .right .javascript::before {
-    width: 95%; /* Adjust width for JavaScript skill */
+.skills-content .right .mysql::before{
+    width: 85%;
 }
+.skills-content .right .wordpress::before{
+    width: 75%;
+}
+
 
 /* projects section styling */
 .teams .title::after{
@@ -1259,340 +1259,3 @@ footer .wave#wave4
         line-height: 38px;
     }
 }
-
-/* Responsive adjustments */
-@media (max-width: 1200px) {
-  .max-width {
-    padding: 0 50px;
-  }
-}
-
-@media (max-width: 991px) {
-  .max-width {
-    padding: 0 30px;
-  }
-}
-
-@media (max-width: 768px) {
-  .home .home-content .text-2 {
-    font-size: 60px;
-  }
-  .home .home-content .text-3 {
-    font-size: 30px;
-  }
-  .about .about-content .column {
-    width: 100%;
-  }
-  .about .about-content .left {
-    margin-bottom: 30px;
-  }
-  .about .about-content .right {
-    flex: 100%;
-  }
-  .services .serv-content,
-  .skills .skills-content,
-  .contact .contact-content {
-    flex-direction: column;
-  }
-  .services .serv-content .card,
-  .skills .skills-content .column,
-  .contact .contact-content .column {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-width: 500px) {
-  .home .home-content .text-2 {
-    font-size: 40px;
-  }
-  .home .home-content .text-3 {
-    font-size: 25px;
-  }
-  .classbox {
-    width: 140px;
-    height: 70px;
-  }
-  .classbox a {
-    font-size: 1.5em;
-  }
-  .about .about-content .right .text,
-  .skills .skills-content .left .text {
-    font-size: 17px;
-  }
-  .contact .right form .fields {
-    flex-direction: column;
-  }
-  .contact .right form .name,
-  .contact .right form .email {
-    margin: 0;
-    margin-bottom: 15px;
-  }
-  #media {
-    gap: 20px;
-  }
-  #media li {
-    width: 60px;
-    height: 60px;
-  }
-  #media li a {
-    font-size: 1.5em;
-  }
-}
-
-/* Swiper styles */
-.swiper-container {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 400px;
-}
-
-.swiper-slide .card {
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    padding: 20px;
-    color: #fff;
-    transition: all 0.3s ease;
-}
-
-.swiper-slide .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-}
-
-.swiper-slide .card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
-
-.swiper-slide .card .text {
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-
-.swiper-slide .card p {
-    font-size: 14px;
-    margin-bottom: 15px;
-}
-
-.swiper-slide .card .project {
-    display: inline-block;
-    padding: 8px 16px;
-    background: rgb(8, 132, 249);
-    color: #fff;
-    border-radius: 5px;
-    transition: all 0.3s ease;
-}
-
-.swiper-slide .card .project:hover {
-    background: #fff;
-    color: rgb(8, 132, 249);
-}
-
-.swiper-button-next, .swiper-button-prev {
-    color: rgb(8, 132, 249);
-}
-
-.swiper-pagination-bullet-active {
-    background: rgb(8, 132, 249);
-}
-
-/* ... rest of your styles ... */
-
-/* GSAP Animation Styles */
-.title {
-    background: linear-gradient(to right, rgb(8, 132, 249) 0%, rgb(8, 132, 249) 100%);
-    background-size: 0% 3px;
-    background-repeat: no-repeat;
-    background-position: left bottom;
-}
-
-.skills-content .right .line::before {
-    width: 0;
-}
-
-/* ... rest of your styles ... */
-/* ... rest of your styles ... */
-
-/* Responsive design */
-@media (max-width: 1300px) {
-    .home .max-width {
-        margin-left: 0px;
-    }
-}
-
-@media (max-width: 1104px) {
-    .about .about-content .left img {
-        height: 350px;
-        width: 350px;
-    }
-}
-
-@media (max-width: 991px) {
-    .max-width {
-        padding: 0 50px;
-    }
-}
-
-@media (max-width: 947px) {
-    .menu-btn {
-        display: block;
-        z-index: 999;
-    }
-    .menu-btn i.active:before {
-        content: "\f00d";
-    }
-    .navbar .menu {
-        position: fixed;
-        height: 100vh;
-        width: 100%;
-        left: -100%;
-        top: 0;
-        background: #111;
-        text-align: center;
-        padding-top: 80px;
-        transition: all 0.3s ease;
-    }
-    .navbar .menu.active {
-        left: 0;
-    }
-    .navbar .menu li {
-        display: block;
-    }
-    .navbar .menu li a {
-        display: inline-block;
-        margin: 20px 0;
-        font-size: 25px;
-    }
-    .home .home-content .text-2 {
-        font-size: 70px;
-    }
-    .home .home-content .text-3 {
-        font-size: 35px;
-    }
-    .home .home-content a {
-        font-size: 23px;
-        padding: 10px 30px;
-    }
-    .max-width {
-        max-width: 930px;
-    }
-    .about .about-content .column {
-        width: 100%;
-    }
-    .about .about-content .left {
-        display: flex;
-        justify-content: center;
-        margin: 0 auto 60px;
-    }
-    .about .about-content .right {
-        flex: 100%;
-    }
-    .services .serv-content .card {
-        width: calc(50% - 10px);
-        margin-bottom: 20px;
-    }
-    .skills .skills-content .column,
-    .contact .contact-content .column {
-        width: 100%;
-        margin-bottom: 35px;
-    }
-}
-
-@media (max-width: 690px) {
-    .max-width {
-        padding: 0 23px;
-    }
-    .home .home-content .text-2 {
-        font-size: 60px;
-    }
-    .home .home-content .text-3 {
-        font-size: 32px;
-    }
-    .home .home-content a {
-        font-size: 20px;
-    }
-    .services .serv-content .card {
-        width: 100%;
-    }
-}
-
-@media (max-width: 500px) {
-    .home .home-content .text-2 {
-        font-size: 50px;
-    }
-    .home .home-content .text-3 {
-        font-size: 27px;
-    }
-    .about .about-content .right .text,
-    .skills .skills-content .left .text {
-        font-size: 19px;
-    }
-    .contact .right form .fields {
-        flex-direction: column;
-    }
-    .contact .right form .name,
-    .contact .right form .email {
-        margin: 0;
-    }
-    .right form .error-box {
-       width: 150px;
-    }
-    .scroll-up-btn {
-        right: 15px;
-        bottom: 15px;
-        height: 38px;
-        width: 35px;
-        font-size: 23px;
-        line-height: 38px;
-    }
-}
-
-/* ... rest of your styles ... */
-
-/* Set section titles to white */
-.about .title,
-.services .title,
-.skills .title,
-.teams .title,
-.contact .title {
-    color: white; /* Change title color to white */
-}
-
-/* Set text color for the content in these sections */
-.about .about-content .right .text,
-.services .serv-content .card .text,
-.skills .skills-content .right .info span,
-.teams .carousel .card .text,
-.contact .contact-content .text {
-    color: white; /* Change content text color to white */
-}
-
-/* Mobile Navbar styling */
-.navbar .menu li a {
-    color: #ffffff; /* Change mobile nav link color to white */
-}
-
-.navbar .menu li a:hover {
-    color: rgb(8, 132, 249); /* Change hover color for better visibility */
-}
-
-/* Adjust sticky navbar text color */
-.navbar.sticky .menu li a {
-    color: #ffffff; /* Change sticky navbar link color to white */
-}
-
-/* ... rest of your styles ... */
