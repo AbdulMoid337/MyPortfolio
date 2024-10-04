@@ -123,59 +123,44 @@
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
-                    <p>Since beginning my journey as a freelance developer nearly 1 month ago, I’ve done remote work for agencies, consulted for startups, and collaborated with talented people to create web products for both business and consumer use.
-                        <br><br>
-                        I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, building small and medium web apps, custom plugins, features, animations, and coding interactive layouts.
-                        <br><br>
-                        I also have full-stack developer experience with popular open-source CMS like (WordPress, bubble.io and others) .
-                        <br> 
-                        Visit my<a href=https://www.instagram.com/abdulmoid337/target id="link">Instagram</a>for more details<a href="#contact" id="link">contact</a>me.
-
-                    </p>
-                    <a href="#contact">Learn more</a>
+                    <p>As a MERN stack developer, I have experience building full-stack web applications using MongoDB, Express.js, React, and Node.js. I'm passionate about creating efficient, scalable, and user-friendly web solutions.</p>
+                    <a href="#" class="btn">Read more</a>
                 </div>
                 <div class="column right">
                     <div class="bars">
                         <div class="info">
-                            <span>HTML</span>
+                            <span>React</span>
                             <span>90%</span>
                         </div>
-                        <div class="line html"></div>
+                        <div class="line react"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>CSS</span>
-                            <span>70%</span>
+                            <span>Node.js</span>
+                            <span>80%</span>
                         </div>
-                        <div class="line css"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>JavaScript</span>
-                            <span>50%</span>
-                        </div>
-                         <div class="line js"></div>
-                    </div>
-                <div class="bars">
-                        <div class="info">
-                            <span>React</span>
-                            <span>50%</span>
-                        </div>
-                        <div class="line php"></div>
+                        <div class="line nodejs"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>MongoDB</span>
-                            <span>85%</span>
+                            <span>75%</span>
                         </div>
-                        <div class="line mysql"></div>
+                        <div class="line mongodb"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>WordPress</span>
-                            <span>75%</span>
+                            <span>Express.js</span>
+                            <span>85%</span>
                         </div>
-                        <div class="line wordpress"></div>
+                        <div class="line expressjs"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="line javascript"></div>
                     </div>
                 </div>
             </div>
@@ -257,25 +242,26 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="https://formspree.io/f/xgvewana" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" name="name" placeholder="Name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" name="email" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" name="subject" placeholder="Subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea name="message" cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button-area">
                             <button type="submit">Send message</button>
                         </div>
                     </form>
+                    
                 </div>
             </div>
         </div>
@@ -340,3 +326,16 @@
          loader.style.display = "none";
       })
   </script>
+<!-- Add these in the <head> section -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- Add these before your closing </body> tag -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+<div id="progress-container" style="position: fixed; top: 0; left: 0; width: 100%; height: 5px; background: #f1f1f1;">
+    <div id="preogressbar" style="height: 100%; width: 0; background: #4caf50;"></div>
+</div>
+<div id="percent" style="position: fixed; top: 10px; right: 10px; color: #000;"></div>
