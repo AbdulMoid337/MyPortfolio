@@ -38,7 +38,7 @@ $(document).ready(function(){
 
     // Typing text animation script
     const typingOptions = {
-        strings: ["Full-Stack developer", "Student", "Freelancer"],
+        strings: ["MERN - Stack developer", "Student", "Freelancer"],
         typeSpeed: 80,
         backSpeed: 60,
         loop: true
