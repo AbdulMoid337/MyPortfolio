@@ -1123,7 +1123,7 @@ footer .wave#wave4
     .navbar .menu{
         position: fixed;
         height: 100vh;
-        width: 100%;
+        width: 80%;
         left: -100%;
         top: 0;
         background: #111;
