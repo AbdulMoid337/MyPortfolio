@@ -227,19 +227,4 @@ $(document).ready(function(){
             }
         });
     });
-
-    // Progress bar
-    var progressbar = document.getElementById("progressbar");
-    var percent = document.getElementById("percent");
-
-    var totalHeight = document.body.scrollHeight - window.innerHeight;
-    window.onscroll = function() {
-        var progress = (window.pageYOffset / totalHeight) * 100;
-        if (progressbar) { // Check if the element exists
-            progressbar.style.width = progress + "%";
-        }
-        if (percent) { // Check if the element exists
-            percent.innerHTML = "Page Scrolled " + Math.round(progress) + "%";
-        }
-    };
 });
