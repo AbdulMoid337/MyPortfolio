@@ -100,7 +100,7 @@ section .title::after{
 }
 @media  screen and (max-width : 767px) {
     .navbar {
-        width: 72%;
+        width: 78%;
     }
 }
 
