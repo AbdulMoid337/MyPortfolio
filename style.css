@@ -116,7 +116,6 @@ section .title::after {
   -webkit-backdrop-filter: blur(10px); /* For Safari */
   border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
-  z-index: 1000; /* Ensure it stays on top */
 }
 
 .navbar .max-width {
@@ -127,10 +126,9 @@ section .title::after {
 
 @media screen and (max-width : 767px) {
     .navbar {
-        width: 80%;
+        width: 96%;
     }
 }
-
 .navbar .logo a {
     color: #fff;
     font-size: 40px;
