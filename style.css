@@ -127,7 +127,7 @@ section .title::after {
 i{
     position: absolute;
     right: 84px;
-    top: 31px;
+    top: 35px;
 }
 @media screen and (max-width : 767px) {
     .navbar {
