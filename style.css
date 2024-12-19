@@ -110,7 +110,7 @@ section .title::after {
 }
 
 .navbar.sticky {
-    padding: 15px 0;
+    padding: 28px 0;
     background: rgba(28, 22, 22, 0.2); /* Semi-transparent background */
   backdrop-filter: blur(10px); /* Glass effect */
   -webkit-backdrop-filter: blur(10px); /* For Safari */
