@@ -122,11 +122,16 @@ section .title::after {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 30px    ;
 }
-
+i{
+    position: absolute;
+    right: 70px;
+    top: 36px;
+}
 @media screen and (max-width : 767px) {
     .navbar {
-        width: 96%;
+        width: 100%;
     }
 }
 .navbar .logo a {
