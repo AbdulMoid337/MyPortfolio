@@ -126,8 +126,8 @@ section .title::after {
 }
 i{
     position: absolute;
-    right: 70px;
-    top: 36px;
+    right: 84px;
+    top: 31px;
 }
 @media screen and (max-width : 767px) {
     .navbar {
@@ -139,6 +139,9 @@ i{
     font-size: 40px;
     font-weight:900;
     cursor: pointer;
+    position: relative;
+    top: -1px;
+    left: -41px;
 }
 
 .navbar .logo a span {
