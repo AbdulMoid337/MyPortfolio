@@ -111,7 +111,12 @@ section .title::after {
 
 .navbar.sticky {
     padding: 15px 0;
-    background: rgb(8, 24, 247);
+    background: rgba(28, 22, 22, 0.2); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Glass effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  z-index: 1000; /* Ensure it stays on top */
 }
 
 .navbar .max-width {
