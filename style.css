@@ -17,7 +17,7 @@
 .nainai{
     height: 41px;
     width: 80px;
-    background: radial-gradient(125% 125% at 50% 10%, #000000a6 40%, #00000087 100%);
+    background: radial-gradient(125% 125% at 50% 10%, #000000 40%, #00000000 100%);
     border-radius: 5px;
     display: inline-block;
     position: absolute;
