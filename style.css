@@ -14,6 +14,18 @@
     /*     font-family: consolas; */
 
 }
+.nainai{
+    height: 41px;
+    width: 80px;
+    background: radial-gradient(125% 125% at 50% 10%, #000000a6 40%, #00000087 100%);
+    border-radius: 5px;
+    display: inline-block;
+    position: absolute;
+    z-index: -33;
+    left: 92px;
+    top: 1px;
+}
+
 
 
 html {
@@ -309,6 +321,9 @@ i{
 }
 
 /* about section styling */
+.about{
+    background: radial-gradient(125% 125% at 50% 10%, #fff 40%, #63e 100%);
+}
 .about .title::after {
     content: "who i am";
 }
@@ -362,11 +377,27 @@ i{
 }
 
 /* services section styling */
-.services,
+.skills{
+    background: radial-gradient(circle farthest-side, rgba(245, 243, 243, 0.982), rgba(92, 6, 145, 0.676));
+
+}
+.contact{
+    background: radial-gradient(circle farthest-side, rgba(245, 243, 243, 0.982), rgba(92, 6, 145, 0.676));
+
+}
+
 .teams {
     color: #fff;
     background: #3a0c54;
+    
 }
+.services {
+    color: #fff;
+    background: radial-gradient(circle farthest-side, rgba(245, 243, 243, 0.982), rgba(92, 6, 145, 0.676));
+
+    
+}
+
 
 .services .title::before,
 .teams .title::before {
@@ -385,7 +416,6 @@ i{
     align-items: center;
     flex-wrap: wrap;
     padding: 40px 0;
-    background: #3a0c54;
     cursor: pointer;
 }
 
