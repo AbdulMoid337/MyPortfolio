@@ -3,7 +3,30 @@
 @tailwind utilities;
 /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
-
+.fa-facebook-f:before {
+    content: "\f39e";
+    position: absolute;
+    top: -54px;
+    left: 78px;
+}
+.fa-youtube:before {
+    content: "\f167";
+    position: absolute;
+    top: -54px;
+    left: 64px;
+}
+.fa-twitter:before {
+    content: "\f167";
+    position: absolute;
+    top: -54px;
+    left: 64px;
+}
+.fa-instagram:before {
+    content: "\f167";
+    position: absolute;
+    top: -54px;
+    left: 64px;
+}
 * {
     margin: 0;
     padding: 0;
