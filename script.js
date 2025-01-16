@@ -47,7 +47,7 @@ $(document).ready(function(){
     new Typed(".typing", typingOptions);
     new Typed(".typing-2", typingOptions);
     new Typed(".typing-3", {
-        strings: ["Connect with me on :)"],
+        strings: ["Connect with me on"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
