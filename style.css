@@ -16,19 +16,19 @@
     content: "\f167";
     position: absolute;
     top: -54px;
-    left: 72px;
+    left: 79px;
 }
 .fa-twitter:before {
     content: "\f167";
     position: absolute;
     top: -54px;
-    left: 30px;
+    left: 34px;
 }
 .fa-instagram:before {
     content: "\f167";
     position: absolute;
     top: -54px;
-    left: -15px;
+    left: -10px;
 }
 * {
     margin: 0;
