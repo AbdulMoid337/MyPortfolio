@@ -7,7 +7,7 @@
     content: "\f39e";
     position: absolute;
     top: -54px;
-    left: 78px;
+    left: 114px;
 }
 .fa-youtube:before {
     content: "\f167";
@@ -19,13 +19,13 @@
     content: "\f167";
     position: absolute;
     top: -54px;
-    left: 64px;
+    left: 30px;
 }
 .fa-instagram:before {
     content: "\f167";
     position: absolute;
     top: -54px;
-    left: 64px;
+    left: -15px;
 }
 * {
     margin: 0;
