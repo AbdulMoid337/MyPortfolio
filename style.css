@@ -6,30 +6,36 @@
 .typing-3{
     font-size: 25px;
 }
-.fa-facebook-f:before {
-    content: "\f39e";
+
+.fa-instagram:before {
+    content: "\f16d"; /* Correct Instagram icon code */
+    position: absolute;
+    top: -54px;
+    left: 18px;
+}
+
+.fa-linkedin:before {
+    content: "\f08c";
     position: absolute;
     top: -54px;
     left: 125px;
 }
-.fa-youtube:before {
-    content: "\f167";
+
+.fa-github:before {
+    content: "\f09b";
     position: absolute;
     top: -54px;
     left: 79px;
 }
+
 .fa-twitter:before {
-    content: "\f167";
+    content: "\f099"; 
     position: absolute;
     top: -54px;
-    left: 40px;
+    left: 43px;
 }
-.fa-instagram:before {
-    content: "\f167";
-    position: absolute;
-    top: -54px;
-    left: -4px;
-}
+
+
 * {
     margin: 0;
     padding: 0;
