@@ -37,6 +37,15 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
+    // Close menu when clicking on a menu item
+    $('.navbar .menu li a').click(function(){
+        // Applying smooth scroll on menu items click
+        $('html').css("scrollBehavior", "smooth");
+        // Close the menu after clicking a link (for mobile)
+        $('.navbar .menu').removeClass("active");
+        $('.menu-btn i').removeClass("active");
+    });
+
     // Typing text animation script
     const typingOptions = {
         strings: ["MERN - Stack developer", "Student", "Freelancer"],
